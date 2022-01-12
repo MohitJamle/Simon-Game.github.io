@@ -23,7 +23,6 @@ body {
   display: inline-block;
   height: 10vw;
   width: 10vw;
-  /* border: 5px solid rgb(70, 70, 70); */
   border-radius: 10%;
 }
 .btn:hover {
@@ -65,4 +64,40 @@ body {
   background-color: rgb(255, 255, 255);
   color: #000;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  #level-title {
+    font-family: "Press Start 2P", cursive;
+    font-size: 5rem;
+    margin: 2%;
+    color: #ffe77e;
+    margin-top: 40px;
+  }
+  #lode {
+    margin: 25px;
+    padding: 5px;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    border: 5px solid orange;
+    border-radius: 100px;
+    color: aliceblue;
+    font-size: 2.2rem;
+    font-family: "Press Start 2P", cursive;
+    justify-content: center;
+  }
+  #lode:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    cursor: pointer;
+  }
+  .btn {
+    margin: 25px;
+    padding: 30px;
+    display: inline-block;
+    height: 13.5vw;
+    width: 13.5vw;
+    border-radius: 10%;
+  }
 }
